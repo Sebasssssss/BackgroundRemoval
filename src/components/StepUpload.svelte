@@ -2,8 +2,8 @@
   import { Cloudinary } from "@cloudinary/url-gen"
   import { backgroundRemoval } from "@cloudinary/url-gen/actions/effect"
 
-  import { ImageStatus } from "../types.d"
-  import { imageStatus, modifiedImage, originalImage } from "./store.js"
+  import { ImageStatus } from "../../types.d"
+  import { imageStatus, modifiedImage, originalImage } from "../store.js"
   import Dropzone from "dropzone"
   import "dropzone/dist/dropzone.css"
 

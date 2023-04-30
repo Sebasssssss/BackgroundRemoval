@@ -1,8 +1,8 @@
 <script lang="ts">
   import { ImageStatus } from "../types.d"
   import CloudinaryLogo from "./assets/CloudinaryLogo.svelte"
-  import StepUpload from "./StepUpload.svelte"
-  import StepEdit from "./StepEdit.svelte"
+  import StepUpload from "./components/StepUpload.svelte"
+  import StepEdit from "./components/StepEdit.svelte"
   import { imageStatus } from "./store.js"
 </script>
 

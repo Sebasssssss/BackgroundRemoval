@@ -1,6 +1,6 @@
 <script lang="ts">
     import "two-up-element"
-    import { originalImage, modifiedImage } from "./store"
+    import { originalImage, modifiedImage } from "../store"
   
     let processingImage = true
     let tries = 0
