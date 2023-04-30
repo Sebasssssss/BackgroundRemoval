@@ -1,32 +1,26 @@
-# Background Remover
+# Cloudinary AI Background Removal
 
-This is a web application that uses Cloudinary's AI to remove the background from images. It is built with Svelte and TypeScript.
+This project is a simple web application built with Svelte, Tailwind CSS, and TypeScript that utilizes the Cloudinary AI API to remove the background of uploaded images.
 
-## Getting Started
+## Features
 
-To run the application locally, you will need to create a `.env` file with your Cloudinary API credentials:
+- Upload images by dragging and dropping them onto the input field
+- Two-up comparison mode to compare the original and edited images side-by-side
 
-Then, run the following commands:
+## Usage
 
-```
-npm install
-npm run dev
-```
+To run the project, follow these steps:
 
-This will start a local development server at http://localhost:5000.
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Start the development server with `npm run dev`
 
-## How to Use
+Note: This project does not use an .env file for the API and cloud name, so make sure to replace the placeholders in the `StepUpload.svelte` file with your own API key and cloud name.
 
-1. Upload an image by clicking the "Upload" button.
-2. Wait for the image to be processed by Cloudinary's AI.
-3. Download the image with the background removed by clicking the "Download" button.
+## Contributing
 
-## Technologies Used
-
-- [Svelte](https://svelte.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Cloudinary AI](https://cloudinary.com/documentation/ai_background_removal_addon)
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
