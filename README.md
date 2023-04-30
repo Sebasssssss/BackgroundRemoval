@@ -23,6 +23,12 @@ Note: This project does not use an .env file for the API and cloud name, so make
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
+## Credits
+
+This project was inspired by the tutorial series by [midudev](https://github.com/midudev) on YouTube.
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+
