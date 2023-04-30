@@ -1,5 +1,3 @@
-Sure, here's an example README.md file for a project using Cloudinary AI to remove background from images, Svelte, and TypeScript:
-
 # Background Remover
 
 This is a web application that uses Cloudinary's AI to remove the background from images. It is built with Svelte and TypeScript.
