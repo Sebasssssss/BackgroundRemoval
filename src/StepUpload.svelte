@@ -11,7 +11,7 @@
 
   const cloudinary = new Cloudinary({
     cloud: {
-      cloudName: "dey8qwla7",
+      cloudName: "YOUR_CLOUD_NAME",
     },
     url: {
       secure: true,
@@ -27,17 +27,14 @@
 
     dropzone.on("sending", (file, xhr, formData) => {
       imageStatus.set(ImageStatus.UPLOADING)
-      // aqui podemos añadir la apiKey, configuracion
       formData.append("upload_preset", "ml_default")
       formData.append("timestamp", Date.now() / 1000)
-      formData.append("api_key", 615565488928379)
+      formData.append("api_key", 'YOUR_API_KEY')
     })
 
     dropzone.on("success", (file, response) => {
       const { public_id: publicId, secure_url: url } = response
 
-      // crear la imagen con fondo transparente
-      // y guardar en el backgroundImage
       const imageWithoutBackground = cloudinary
         .image(publicId)
         .effect(backgroundRemoval())
@@ -50,7 +47,7 @@
     })
 
     dropzone.on("error", (file, response) => {
-      console.log("HA IDO MAL")
+      console.log("Oops... Something went wrong!")
       console.log(response)
     })
   })
