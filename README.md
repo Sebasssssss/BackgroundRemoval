@@ -6,11 +6,6 @@ This is a web application that uses Cloudinary's AI to remove the background fro
 
 To run the application locally, you will need to create a `.env` file with your Cloudinary API credentials:
 
-```
-CLOUD_NAME=your_cloud_name
-API_KEY=your_api_key
-```
-
 Then, run the following commands:
 
 ```
