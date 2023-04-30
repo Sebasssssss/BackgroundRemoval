@@ -2,6 +2,8 @@
 
 This project is a simple web application built with Svelte, Tailwind CSS, and TypeScript that utilizes the Cloudinary AI API to remove the background of uploaded images.
 
+![Screenshot 2023-04-30 004836](https://user-images.githubusercontent.com/105828786/235379670-780bf6d0-044d-4179-ade6-feee7aeeb12f.png)
+
 ## Features
 
 - Upload images by dragging and dropping them onto the input field
