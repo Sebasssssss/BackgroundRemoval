@@ -14,8 +14,8 @@ This project is a simple web application built with Svelte, Tailwind CSS, and Ty
 To run the project, follow these steps:
 
 1. Clone the repository
-2. Install dependencies with `npm install`
-3. Start the development server with `npm run dev`
+2. Install dependencies with `pnpm install`
+3. Start the development server with `pnpm run dev`
 
 Note: This project does not use an .env file for the API and cloud name, so make sure to replace the placeholders in the `StepUpload.svelte` file with your own API key and cloud name.
 
