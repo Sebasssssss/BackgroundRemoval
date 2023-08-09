@@ -30,5 +30,3 @@ This project was inspired by the tutorial series by [midudev](https://github.com
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-
